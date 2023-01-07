@@ -27,45 +27,32 @@
                         <span class="fa-stack fa-4x">
                                 <img class="img-fluid" src="assets/img/dine-in.jpg" alt="..." />
                         </span>
-                        <h4 class="my-3">Dine-in</h4>
+                        <h3 class="my-3">Dine-in</h3>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                                 <img class="img-fluid" src="assets/img/take-out.jpg" alt="..." />
                         </span>
-                        <h4 class="my-3">Costumer Pickup</h4>
+                        <h3 class="my-3">Costumer Pickup</h3>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                                 <img class="img-fluid" src="assets/img/delivery.png" alt="..." />
 
                         </span>
-                        <h4 class="my-3">Delivery area 5km</h4>
+                        <h3 class="my-3">Delivery area 5km</h3>
                     </div>
-                    <h6>Payment Method when ordering food:</h6>
+
+                    <h6>Payment Method:</h6>
                     <p class="text-muted">
                     Accepts Cash <br> Visa <br> Mastercard <br> Credit Cards <br> GCash
                     </p>
+                    
                 </div>
             </div>
-        </section>
+    
+
         <!-- menu Grid-->
-
-           <!-- <style>
-
-                body{
-                    font-family: monospace;
-                    padding: 30px;
-                }
-                .image-resize {
-                    height: 390px;
-                    object-fit: cover;
-                    object-position: center center;
-                }
-                
-            
-            </style>-->
-
 
         <section class="page-section bg-light" id="menu">
             <div class="container">
@@ -79,6 +66,7 @@
                         <div class="menu-item">
                             <a class="menu-link" data-bs-toggle="modal" href="#menuModal1">
                                 
+
                                 <img class="img-fluid" src="assets/img/menu/11.jpg" alt="..."/> 
                             </a>
                             <div class="menu-caption">
@@ -153,7 +141,14 @@
                         </div>
                     </div>
                 </div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="assets/img/chaah/Cha'ah Menu.jpg">Menu</a>
+
+                <div class="container">
+                    <div class="text-center"><br>
+                        <a class="btn btn-primary btn-xl text-uppercase" href="assets/img/chaah/Cha'ah Menu.jpg">
+                                     Menu 
+                        </a>
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -246,12 +241,12 @@
                 <div class="row align-items-center">
                     <div class="col-md-3 col-sm-6 my-3">
                         <a href="https://www.google.com/maps/place/Cha'ah+Bubble+Tea/@8.9415709,125.533142,17z/data=!3m1!4b1!4m5!3m4!1s0x3301c157d206cca7:0xf997725934505929!8m2!3d8.9415942!4d125.535392">
-                            <img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.png" alt="..." aria-label="Google Logo">
+                            <img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/googlemap.jpg" alt="..." aria-label="Google Map Logo">
                         </a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
                         <a href="https://www.facebook.com/chaahbyjuyens1">
-                            <img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/fb.png" alt="..." aria-label="Facebook Logo">
+                            <img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.jpg" alt="..." aria-label="Facebook Logo">
                         </a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
@@ -507,4 +502,5 @@
                 </div>
             </div>
         </div>
+
 @endsection
